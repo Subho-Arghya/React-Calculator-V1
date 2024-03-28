@@ -1,0 +1,21 @@
+{
+  "name": "calculator-with-react",
+  "version": "1.0.0",
+  "description": "A calculator following the design provided",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn parcel src/index.html",
+    "build": "yarn parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

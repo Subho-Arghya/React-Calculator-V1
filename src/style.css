@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #80d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  background: #222;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
+}
+
+.buttonBox {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+}
+
+
+/* input screen */
+
+.input-wrapper {
+  height: 8rem;
+  width: 16rem;
+  background-color: #a2aa78;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 16px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.result {
+  flex: 1;
+  font-size: 20px;
+}
+
+.text {
+  flex: 1;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+/*Input component end */
+
+/*Button Component style */
+
+.button-wrapper {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #5a5a5a;
+  color: white;
+  flex: 1;
+  margin: 4px; 
+  cursor: pointer;
+  transition: transform 0.1s ease; 
+}
+
+.button-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.button-.button-wrapper {
+  transform: scale(0.92);
+}
+
+
+
+.opButtonStyles {
+  background-color: orange;
+}
+
+.numButtonStyles, .opButtonStyles {
+  border-radius: 100%;
+}
+
+.op2ButtonStyles {
+  background-color: orange;
+  grid-column: span 2;
+  border-radius: 25px;
+}
+/* Button Component style end */
